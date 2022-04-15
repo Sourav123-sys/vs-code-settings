@@ -1,0 +1,103 @@
+{
+    "editor.fontFamily": "'cascadia code','fira code iscript',Consolas, 'Courier New', monospace",
+   
+    "files.autoSave": "afterDelay",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.formatOnSave": true,
+    "prettier.endOfLine": "auto",
+    "prettier.jsxSingleQuote": true,
+    "prettier.requireConfig": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "editor.cursorBlinking": "expand",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "tailwindCSS.emmetCompletions": true,
+    "powermode.enabled": false,
+    
+    "powermode.presets": "flames",
+    "editor.fontSize": 18,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnType": true,
+    
+    "editor.tokenColorCustomizations": {
+      "keywords": "#08f19b",
+      "functions": "#d9d50f",
+      "comments": "#06f339",
+      "textMateRules": [
+        {
+          "scope": "storage.type.function.js",
+          "settings": {
+            // "foreground": "#FF00FF",
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": "meta.function-call",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    "workbench.colorCustomizations": {
+      "terminal.foreground": "#00eeff",
+      "terminal.background": "#000000",
+      "terminalCursor.foreground": "#00e1ff",
+      "terminalCursor.background": "#00e1ff"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false,
+      "javascript": false
+    },
+    "editor.mouseWheelZoom": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Cobalt2",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "auto-close-tag.activationOnLanguage": [
+    
+    
+    
+  
+    
+    
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+    ],
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "tabnine.experimentalAutoImports": true
+  }
